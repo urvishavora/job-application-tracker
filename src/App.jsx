@@ -100,11 +100,8 @@ function App() {
           path="/jobs"
           element={
             <>
-              <div className="row mb-3">
-                <div className="col text-start">
-                  <label className="ms-1" htmlFor="searchTerm">
-                    Search:{" "}
-                  </label>
+              <div className="row mb-4 align-items-end">
+                <div className="col-md-6">
                   <input
                     id="searchTerm"
                     type="text"
@@ -115,36 +112,32 @@ function App() {
                   />
                 </div>
 
-                <div className="col text-start">
-                  <label className="ms-1" htmlFor="statusFilter">
-                    Filter by Status:{" "}
-                  </label>
-                  <select
-                    id="statusFilter"
-                    className="form-control"
-                    value={filterStatus}
-                    onChange={(e) => setFilterStatus(e.target.value)}
-                  >
-                    <option value="all">All</option>
-                    <option value="applied">Applied</option>
-                    <option value="interview">Interview</option>
-                    <option value="rejected">Rejected</option>
-                    <option value="offer">Offer</option>
-                  </select>
-                </div>
-                <div className="col text-start">
-                  <label className="ms-1" htmlFor="sortOrder">
-                    Sort by Date:{" "}
-                  </label>
-                  <select
-                    id="sortOrder"
-                    className="form-control"
-                    value={sortOrder}
-                    onChange={(e) => setSortOrder(e.target.value)}
-                  >
-                    <option value="newest">Newest</option>
-                    <option value="oldest">Oldest</option>
-                  </select>
+                <div className="col-md-6 d-flex gap-3">
+                  <div className="w-50">
+                    <select
+                      id="statusFilter"
+                      className="form-control"
+                      value={filterStatus}
+                      onChange={(e) => setFilterStatus(e.target.value)}
+                    >
+                      <option value="all">All</option>
+                      <option value="applied">Applied</option>
+                      <option value="interview">Interview</option>
+                      <option value="rejected">Rejected</option>
+                      <option value="offer">Offer</option>
+                    </select>
+                  </div>
+                  <div className="w-50">
+                    <select
+                      id="sortOrder"
+                      className="form-control"
+                      value={sortOrder}
+                      onChange={(e) => setSortOrder(e.target.value)}
+                    >
+                      <option value="newest">Newest</option>
+                      <option value="oldest">Oldest</option>
+                    </select>
+                  </div>
                 </div>
               </div>
 

@@ -16,7 +16,7 @@ body {
 .form-card {
   max-width: 650px;
   background: #fff;
-  padding: 30px;
+  padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 14px rgba(0,0,0,0.08);
   box-sizing: border-box;
@@ -29,4 +29,9 @@ h1, h2 {
 .card:hover {
   transform: translateY(-5px);
   transition: 0.3s;
+  border-radius: 14px;
+}
+
+.form-control {
+  border-radius: 8px;
 }

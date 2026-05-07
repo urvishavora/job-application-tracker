@@ -14,7 +14,7 @@ function Dashboard({ jobs }) {
           <div className="card test-center shadow-sm">
             <div className="card-body">
               <div className="card-title">Total Applications</div>
-              <i className="bi bi-chart fs-4 mb-2"></i>
+                <i className="bi bi-briefcase fs-4 mb-2"></i>
               <h5 className="fw-bold text-dark">{total}</h5>
             </div>
           </div>

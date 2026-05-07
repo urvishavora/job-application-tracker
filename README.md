@@ -1,16 +1,59 @@
-# React + Vite
+# Job Application Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based job application tracking application that helps users manage, organize, and monitor their job applications efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Add, edit, and delete job applications
+- Edit applications using a modal popup
+- Search by position, company, or location
+- Filter applications by status
+- Sort jobs by application date
+- Dashboard with real-time statistics
+- Status-based color badges
+- Persistent data using localStorage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- React Router
+- Bootstrap
+- Bootstrap Icons
+- JavaScript (ES6)
+- localStorage
+
+---
+
+## 📄 Pages
+
+- **Dashboard** → Overview of job statistics  
+- **Add Job** → Add new job applications  
+- **View Jobs** → Manage, search, filter, and edit jobs  
+
+---
+
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](public/screenshots/dashboard.png)
+
+### Add Job
+![Add Job](public/screenshots/add-job.png)
+
+### Job List
+![Job List](public/screenshots/job-list.png)
+
+### Edit Modal
+![Edit Modal](public/screenshots/edit-modal.png)
+
+---
+
+## ▶️ How to Run Locally
+
+```bash
+npm install
+npm run dev
