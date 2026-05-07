@@ -39,16 +39,22 @@ A React-based job application tracking application that helps users manage, orga
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](public/screenshots/dashboard.png)
+<img src="screenshots/dashboard.png" width="800"/>
+
+---
 
 ### Add Job
-![Add Job](public/screenshots/add-job.png)
+<img src="screenshots/add-job.png" width="800"/>
+
+---
 
 ### Job List
-![Job List](public/screenshots/job-list.png)
+<img src="screenshots/job-list.png" width="800"/>
+
+---
 
 ### Edit Modal
-![Edit Modal](public/screenshots/edit-modal.png)
+<img src="screenshots/edit-modal.png" width="800"/>
 
 ---
 
